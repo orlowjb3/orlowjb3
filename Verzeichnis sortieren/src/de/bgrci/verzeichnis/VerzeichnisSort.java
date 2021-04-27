@@ -28,6 +28,7 @@ public class VerzeichnisSort {
 			if (f.isDirectory()) durchsucheVerzeichns(f);
 		 else {
 				if (f.getName().toLowerCase().endsWith(".jpg")) speicherBild(f);
+				
 			}
 		}
 	}
