@@ -44,7 +44,7 @@ public class VerzeichnisSort {
 			
 			System.out.println("Datum : " + date);
 			
-			System.out.println("Pfad " + getPfad(date));
+			System.out.println("Pfad : " + getPfad(date));
 		}
 		catch (Exception e) {
 			System.out.println("Keine EXIF Daten");
